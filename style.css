@@ -28,6 +28,24 @@ main{
     background-color: hsl(228, 56%, 26%);
     border-radius:10px;
     border-top-right-radius: 100px;
+    padding:2.5rem;
+}
+
+.row img{
+    height:45px;
+    width:45px;
+    margin-top:2rem; 
+    margin-right:0.7rem;
+    background-color: hsl(229, 57%, 11%);
+    padding:10px;
+    border-radius: 7px;
+    
+}
+#up{
+    width:51px;
+}
+#fol{
+    width:48px;
 }
 
 .second_container{
