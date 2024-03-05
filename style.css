@@ -70,9 +70,17 @@ main{
     background-color: hsl(229, 57%, 11%);
     border-radius:20px;
     padding-right:10px;
+    z-index: 1;
+
 }
 
-.box{
+.timeline{
+    width:70%;
+    background-image: linear-gradient(hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+    z-index: 2;
+}
+
+/* .box{
     position:relative;
     background-color:white;
     width:150px;
@@ -81,9 +89,7 @@ main{
     display:flex;
     justify-content: center;
     align-items:center;
-    
-
-}
+} */
 .line{
     padding-top:7px;
     display:flex;
