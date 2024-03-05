@@ -97,16 +97,47 @@ main{
     margin-right: 2px;
 }
 
-/* .box{
-    position:relative;
+.box{
+    position:absolute;
+    top: 38.3%;
+    right: 21.5%;
+    width: 0;
+    height: 0;
     background-color:white;
-    width:150px;
-    height:50px;
+    width:170px;
+    height:70px;
     border-radius:5px;
     display:flex;
     justify-content: center;
     align-items:center;
-} */
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid white; /* Adjust color as needed */
+  }
+
+.box span:first-child{
+    font-size:40px;
+    font-weight:700;
+    font-family: "Raleway", sans-serif;
+}
+
+.box span:last-child{
+    font-family: "Raleway", sans-serif;
+    padding-left:7px;
+    padding-top:5px;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.429)
+}
 .line{
     padding-top:7px;
     display:flex;
