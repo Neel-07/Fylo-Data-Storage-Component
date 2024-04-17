@@ -21,7 +21,7 @@ For the Fylo data storage componentproject, my focus was on creating a visually 
 ![](./design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [Click here](https://neel-07.github.io/Stats-Preview-Card-Component/)
+- Live Site URL: [Click here](https://neel-07.github.io/Fylo-Data-Storage-Component/)
 
 ## My process
   I began the project by meticulously structuring the HTML to encapsulate the key components of the statistics Data storage, emphasizing clear and semantic layout. Following this, I delved into the CSS implementation, concentrating on visually stunning design elements and ensuring responsiveness across different screen sizes. Attention was paid to typography, color schemes, and layout considerations to produce an engaging and user-friendly stats preview card.
